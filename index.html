@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Panel Entreprises</title>
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="text/babel">
+    // Code UI ici
+    const App = () => {
+      return (
+        <div className="bg-gray-50 min-h-screen">
+          <nav className="bg-white border-b border-gray-200">
+            <div className="px-4 mx-auto">
+              <div className="flex items-center justify-between h-16">
+                <div className="flex-shrink-0">
+                  <span className="text-xl font-semibold text-blue-600">Panel d'Entreprises</span>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <main className="p-4">
+            <h1 className="text-2xl font-bold mb-6">Tableau de bord</h1>
+            <div className="bg-white shadow rounded-lg p-6">
+              <h2 className="text-lg font-medium mb-4">Bienvenue au prototype Panel Entreprises</h2>
+              <p>Interface statique de démonstration</p>
+            </div>
+          </main>
+        </div>
+      );
+    };
+
+    ReactDOM.render(<App />, document.getElementById('root'));
+  </script>
+</body>
+</html>
