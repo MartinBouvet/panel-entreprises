@@ -1,0 +1,56 @@
+/* frontend/src/assets/styles/variables.css */
+:root {
+  /* Colors */
+  --primary: #0070f3;
+  --primary-dark: #005cc5;
+  --primary-light: #3291ff;
+  --primary-light-bg: #e1efff;
+  
+  --success: #0ca678;
+  --success-light: #d3f9ee;
+  
+  --warning: #f59f00;
+  --warning-light: #fff3e0;
+  
+  --error: #e03131;
+  --error-light: #ffe3e3;
+  
+  --text-primary: #333333;
+  --text-secondary: #666666;
+  --text-tertiary: #999999;
+  --text-heading: #111111;
+  
+  --bg-light: #f5f7fa;
+  --bg-hover: #f0f2f5;
+  
+  --border: #d1d5db;
+  --border-light: #e5e7eb;
+  
+  --disabled: #cccccc;
+  
+  /* Spacing */
+  --spacing-xs: 0.25rem;   /* 4px */
+  --spacing-sm: 0.5rem;    /* 8px */
+  --spacing-md: 1rem;      /* 16px */
+  --spacing-lg: 1.5rem;    /* 24px */
+  --spacing-xl: 2rem;      /* 32px */
+  --spacing-2xl: 3rem;     /* 48px */
+  
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+  
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-full: 9999px;
+  
+  /* Z-index */
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-fixed: 300;
+  --z-modal: 400;
+  --z-tooltip: 500;
+}
